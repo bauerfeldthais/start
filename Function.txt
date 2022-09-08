@@ -1,0 +1,123 @@
+function irAoMercado (ovo, bacon, laranjas, oleo){
+	ir até o armário
+	verificar a existência dos produtos
+
+	if (haver ovos e haver bacon e haver laranja e haver óleo){
+	não se deslocar até o mercado
+	} else {
+	ir até as chaves
+	pegar a chave da porta de entrada e a carteira
+	ir até a porta de entrada
+	abrir a porta de entrada com as chaves
+	sair de casa		  
+	fechar a porta de entrada com as chaves
+	caminhar até o mercado
+	pegar os produtos faltantes
+	ir até o caixa
+	efetuar o pagamento dos produtos com a carteira
+	ir para casa
+	abrir a porta de entrada com as chaves
+	entrar em casa
+	fechar a porta de entrada com as chaves
+	guardar os produtos
+	}
+return ovo, óleo, bacon, laranjas
+}
+
+function prepararOleo (quantidadeDeOleo){
+
+	ir até o armário 1
+	pegar o X ml de óleo
+	reservar
+	ir até o armário 2
+	pegar a frigideira
+	reservar
+	ir até o armário 3
+	pegar a escumadeira e o prato
+	reservar
+	ir até o fogão
+	acender o fogão
+	colocar a frigideira em cima do fogão com a boca acesa
+	colocar X ml de óleo
+	verificar a temperatura do óleo
+	aguardar até que a temperatura chegue ao valor X
+		
+return óleo quente, escumadeira e prato
+}
+
+function ovoFrito (){
+		
+	ir até o armário 1
+	pegar o ovo
+	reservar
+	prepararOleo (50ml)
+	abrir a casca e colocar o ovo
+	ir até o lixo	
+	colocar a casca do ovo
+	ir até o fogão
+	utilizar a escumadeira para colocar óleo em cima do ovo
+	quando o ovo estiver completamente frito retirar do óleo com a escumadeira
+	colocar o ovo no prato
+	desligar a boca acesa do fogão
+
+return ovoFritado
+}
+
+function baconFrito (){
+
+	ir até o armário 1
+	pegar o bacon
+	reservar
+	prepararOleo (50ml)
+	abrir o pacote e colocar as tiras de bacon
+	ir até o lixo	
+	colocar o pacote do bacon
+	ir até o fogão
+	utilizar a escumadeira para colocar óleo em cima do bacon
+	quando o bacon estiver completamente frito retirar do óleo com a escumadeira
+	colocar o bacon no prato
+	desligar a boca acesa do fogão
+
+return baconFritado
+}
+
+function sucoDeLaranja (laranjas){
+
+	ir até o armário 2
+	pegar o espremedor, a faca, a tábua de cozinha e o copo
+	reservar
+	ir até a mesa da cozinha
+	colocar a tábua de cozinha e o espremedor sobre a mesa
+	conectar o espremedor na tomada próxima a mesa
+	utilizar a faca para cortar ao meio as laranjas sobre a tábua de cozinha
+	utilizar as laranjas cortadas no espremedor para retirar o líquido
+	pegar as cascas 	
+	ir até o lixo	
+	colocar as cascas
+	ir até o espremedor
+	retirar o suco do espremedor derramando no copo
+	retirar da tomada o espremedor
+
+return sucoPreaparado
+}
+
+
+function prepararCaféDaManhã (){
+	
+	ir até o armário1
+	let laranjas = pegar 4 laranjas
+
+	let coisasMercado = irAoMercado (ovo, bacon, laranjas, oleo)
+	let ovoFrito = ovoFrito (ovo, oleo)
+	let baconFrito = baconFrito (bacon, oleo)
+	let sucoDeLaranja	= sucoDeLaranja (laranjas)
+
+return ovoFritado, baconFritado e sucoPreaparado
+}		
+
+
+
+		
+		
+
+	

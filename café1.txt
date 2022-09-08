@@ -1,0 +1,33 @@
+let qualCafé = ['Expresso', 'Carioca', 'Cappucino', 'Café com Leite', 'Chocolate Quente']
+let quantChoc = [0,10,20,30] //arrays
+let quantCafé = [0,10,20,30]
+let quantLeite = [0,10,20,30]
+let quantÁgua = [10,20,30]
+let intensCafé = ['Fraco', 'Médio', 'Forte']
+let doceCafé = ['Sim', 'Não'] //Boolean
+
+
+function produzirCafé (qualCaféEscolhido, quantCaféEscolhido, quantLeiteEscolhido, quantChocEscolhido, quantÁguaEscolhido, doceCaféEscolhido) {
+    let caféPronto = qualCafé
+
+    definir qualCaféEscolhido
+    definir intensCaféEscolhido
+	colocar copo
+	colocar quantCaféEscolhido de café solúvel
+	colocar quantLeiteEscolhido de leite em pó
+	colocar quantChocEscolhido de chocolate em pó
+	colocar quantÁguaEscolhido de água quente
+    
+    if (doceCaféEscolhido == 'Sim') {
+    colocar açúcar
+    }
+    if (doceCaféEscolhido == 'Não') {
+    não colocar açúcar
+    }
+    
+    colocar colher
+
+    return caféPronto
+}
+
+produzirCafé

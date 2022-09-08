@@ -1,0 +1,173 @@
+github trabalha sobre um repositorio.
+'Git controle de versão'
+
+criar repositorio git - git init
+git status
+git add . (. quer dizer adicionar todo mundo)
+git commit -m 'Initial Commit' (m de mensagem)
+
+Ter uma pasta com os arquivos.
+
+do lado esquerdo recebe, do lado direito é o recebido
+
+https://gohorseprocess.com.br/extreme-go-horse-xgh/
+
+
+
+
+Java Script
+HTML
+
+- compilador (mozilla, chrome....)
+
+Variáveis (sempre um substantivo, sempre indicar variável. mudança de valor 'variável nome=pedro, nome=maria, nome=joão' 'variável idade=20, idade=30, idade=40)
+  - Tipadas (java, c++, Typescript)(necessitam ter a criação de um "perfil") e não tipadas (javascript, php)(pode apenas se indicar apenas a variável)
+  - Constantes (como o próprio nome diz. muda em apenas no lugar principal, e no restante muda automaticamente sem necessitar a alteração)
+  - let - declaração de variável
+
+Funções (ações: necessitam de parametros colocados dentro de  () - normalmente retornam algo)
+  
+Quando é uma lista, não se utiliza ||
+
+Boolean, é uma variável que só pode ter dois valores: true, false
+
+Nunca utilizar var, sempre utilizar o let
+
+(string)=== - exatamente igual
+switch case * pesquisar
+parametros * pesquisar
+
+
+
+arrays
+
+
+
+Git (controle de versão, versões de código, commit, push, pull, branch, repositório) * pesquisar 
+
+funções necessitam ser iniciadas com verbos (exemplo: fazerNovaFunção, colocarNovoCopo)
+
+variavel não é o mesmo que o valor
+variavel é criada para que tenha um valor
+guardar o valor das funções
+
+
+
+
+ler o capitulo dos nomes do livro que o marlon passou - capitulo 2
+
+escrever um mini artigo sobre cada topico de aprendizagem (um projeto - markdown)
+ 
+php toda variavel tem uma cifra no começo
+
+
+------
+ *clause guard - pesquisar
+
+nomes
+
+
+! - sempre inverte o valor
+
+não utilizar nenhuma negação - booleans
+sempre usar camelcase para variaveis
+acentuação não é utilizada
+melhor utilizar a lingua inglesa (lingua universal)
+
+booleans necessitam começar com (is, has, can - é quase uma pergunta)
+
+camelCase
+PascalCase
+snake_case
+kebab-case
+MACRO_CASE
+
+
+methods - functions
+class - sempre usar PascalCase
+snake_case - banco de dados
+
+
+
+
+
+
+for (foreach), while (do while) - laço de repetição - evitar a manipulação de i
+
+.length
+
+
+iteração
+
+
+
+// for que conte o número de posições em um array
+// for que conte o número de posições em um array em que o valor é maior que 10
+// for que some todos os valores de um array
+
+
+-----------------------
+
+Arrays sempre contidos em colchetes (uma lista de valores) - pra cada posição deles existe um index começando no 0
+Git
+Parametros
+String
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+escrever um código de fritar um ovo (máximo 50 linhas)
+
+function fritarUmOvo (ovo, óleo, frigideira, escumadeira, prato, fogão) {
+
+if (haver ovos)
+	ir até a caixa de ovos
+	pegar um ovo
+	verificar se o ovo está bom
+	reservar
+	ir até o armário 1
+	pegar o X ml de óleo
+	reservar
+	ir até o armário 2
+	pegar a frigideira
+	reservar
+	ir até o armário 3
+	pegar a escumadeira e o prato
+	reservar
+	ir até o fogão
+	acender o fogão
+	colocar a frigideira em cima do fogão com a boca acesa
+	colocar X ml de óleo
+	verificar a temperatura do óleo	
+	abrir a casca e colocar o ovo quando o óleo estiver na temperatura X
+	ir até o lixo	
+	colocar a casca do ovo	
+	ir até o fogão
+	utilizar a escumadeira para colocar óleo em cima do ovo
+	quando o ovo estiver completamente frito retirar do óleo com a escumadeira
+	colocar o ovo no prato
+	desligar a boca acesa do fogão
+
+
+return ovo frito
+}
+
+
+
+
+Próxima tarefa:
+Criar um código que prepara o café da manhã com ovos fritos, bacon frito, e suco de laranja
+
+Dica: Dentro de uma função, podes chamar outras funções para dividir o código em partes e reutilizá-las (não falamos disso ainda, mas pode ser de alguma ajuda)

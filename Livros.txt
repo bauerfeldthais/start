@@ -1,0 +1,64 @@
+nós nomeamos muito, e devemos fazer isso bem. Os nomes de uma variável, função ou classe, devem responder todas as questões
+1. Que tipos de coisas estão na Lista?
+2. Qual é o significado do zero subscrito de um item na Lista?
+3. Qual é o significado do valor 4?
+4. Como eu usaria a lista que está sendo retornada?
+Deve-se evitar deixar pistas falsas que obscureçam o significado do código
+Não se refira a algo como xList, a menos que seja realmente uma list (tem um significado especifico para programadores)
+
+Os programadores criam problemas para si mesmos quando escrevem código apenas para satisfazer um compilador ou interpretador. Por exemplo,
+porque você não pode usar o mesmo nome para se referir
+para duas coisas diferentes no mesmo escopo,
+você pode ficar tentado a mudar um nome
+de forma arbitrária. Às vezes, isso é feito com um erro de ortografia, levando à surpreendente
+situação em que a correção de erros de ortografia leva a uma incapacidade de compilar.
+
+A palavra variável nunca deve aparecer em uma variável
+nome. A palavra tabela nunca deve aparecer em um nome de tabela.
+
+Os humanos são bons com as palavras. Uma parte significativa do nosso cérebro é dedicada ao conceito de
+palavras. E as palavras são, por definição, pronunciáveis.
+
+Evitar codificações
+Temos codificações suficientes para lidar sem adicionar mais ao nosso fardo.
+
+Dificilmente parece razoável exigir que cada novo funcionário aprenda outra “linguagem” de codificação, além de aprender o (geralmente considerável) corpo de código em que trabalhará. É um fardo mental desnecessário ao tentar resolver um problema.
+
+IShapeFactory e
+ShapeFactory? Eu prefiro deixar as interfaces sem adornos. O I precedente, tão comum em
+o legado de hoje é uma distração na melhor das hipóteses e muita informação na pior. Eu não
+quero que meus usuários saibam que estou entregando a eles uma interface. Eu só quero que eles saibam disso
+é uma ShapeFactory.
+
+Em geral, os programadores são pessoas muito inteligentes. Pessoas inteligentes às vezes gostam de mostrar
+fora de sua inteligência, demonstrando suas habilidades de malabarismo mental. Afinal, se você puder lembrar com segurança que r é a versão em letras minúsculas do URL com o host e o esquema
+removido, então você deve claramente ser muito inteligente.
+
+Classes e objetos devem ter nomes de substantivos ou frases nominais como Customer, WikiPage,
+Conta e AddressParser. Evite palavras como Gerente, Processador, Dados ou Informações no nome
+de uma classe. Um nome de classe não deve ser um verbo.
+
+Escolha a clareza sobre o valor do entretenimento.
+
+A função
+os nomes precisam ser independentes e precisam ser consistentes para que você escolha o método correto sem nenhuma exploração adicional.
+
+Evite usar a mesma palavra para dois propósitos. Usando o mesmo termo para duas ideias diferentes
+é essencialmente um trocadilho.
+
+Nosso objetivo, como autores, é tornar nosso código o mais fácil de entender possível. Nós queremos
+nosso código seja uma rápida leitura, não um estudo intenso.
+
+Lembre-se de que as pessoas que lerão seu código serão programadores. Então vá em frente e use
+termos de ciência da computação (CS), nomes de algoritmos, nomes de padrões, termos matemáticos e assim por diante.
+
+Da mesma forma, digamos que você inventou uma classe MailingAddress no módulo de contabilidade do GSD e
+você o nomeou GSDAccountAddress. Mais tarde, você precisará de um endereço de correspondência para seu aplicativo de contato com o cliente. Você usa GSDAccountAddress? Parece o nome certo? Dez de
+17 caracteres são redundantes ou irrelevantes.
+
+Nomes mais curtos geralmente são melhores que os mais longos, desde que sejam claros. Adicionar não
+mais contexto para um nome do que o necessário.
+
+
+
+

@@ -1,0 +1,43 @@
+Máquina de café
+   Qual café eu quero
+   Com ou sem açucar
+   Intensidade (fraco, médio e forte)
+
+var qualCafé = 'Expresso' || 'Carioca' || 'Cappucino' || 'Café com Leite' || 'Chocolate Quente'
+var quantChoc = [0,10,20,30]
+var quantCafé = [0,10,20,30]
+var quantLeite = [0,10,20,30]
+var quantÁgua = [10,20,30]
+var intensCafé = 'Fraco' || 'Médio' || 'Forte'
+var doceCafé = 'Sim' || 'Não'
+
+
+function produzirCafé (qualCafé, quantCafé, quantLeite, quantChoc, quantÁgua){
+	let caféPronto = qualCafé
+
+	definir qualCafé
+	definir intensCafé
+	colocar copo
+	colocar quantCafé de café solúvel
+	colocar quantLeite de leite em pó
+	colocar quantChoc de chocolate em pó
+	colocar quantÁgua de água quente
+	if (doceCafé == 'Sim') {
+	colocar açúcar
+	}
+	if (doceCafé == 'Não') {
+	não colocar açúcar
+	}
+	
+	colocar colher
+
+return caféPronto
+}
+
+expresso
+carioca
+cappucino
+cafe com leite
+chocolate quente
+
+5 Compartimentos: Café Solúvel, Leite em pó e Chocolate em pó, Açúcar
