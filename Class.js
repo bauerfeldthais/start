@@ -6,9 +6,9 @@ Class Student{
 	grade;
 
 	//
-	school subjects();
-	grade();
-
+	schoolSubjects(){};
+	grade(){};
+}
 function sumGrade(grade){
 	let result = 0
 	for (let i = 0; i < grade.lenght; i++){
